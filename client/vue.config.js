@@ -1,6 +1,9 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/static/dist/' : 'http://127.0.0.1:8080',
-    outputDir: '../server/static/dist',
+    // TODO: use envs to set ports and paths
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/static/demo/'
+        : 'http://127.0.0.1:8080',
+    outputDir: '../demo/static/demo',
     indexPath: '../../templates/base-vue.html', // relative to outputDir!
 
     chainWebpack: config => {

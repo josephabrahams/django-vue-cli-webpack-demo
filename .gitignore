@@ -1,5 +1,8 @@
-node_modules
 __pycache__
-server/db.sqlite3
-server/templates/base-vue.html
-server/static/dist/
+.env
+db.sqlite3
+demo/db.sqlite3
+demo/templates/base-vue.html
+demo/static/demo/
+node_modules/
+staticfiles/
